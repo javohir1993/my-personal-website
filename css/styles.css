@@ -1,0 +1,138 @@
+/* fredericka-the-great-regular - latin */
+@font-face {
+  font-family: "Fredericka the Great";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Fredericka the Great"), local("FrederickatheGreat"),
+       url("../fonts/fredericka-the-great-v10-latin-regular.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url("../fonts/fredericka-the-great-v10-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* special-elite-regular - latin */
+@font-face {
+  font-family: "Special Elite";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Special Elite Regular"), local("SpecialElite-Regular"),
+       url("../fonts/special-elite-v11-latin-regular.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url("../fonts/special-elite-v11-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Special Elite", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+  /* background-color: #fff; */
+  /* color: #000000; */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1140px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-portfolio-bgi {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/header-bgi.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.container-site-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.site-logo-header {
+  font-family: "Fredericka the Great", "Special Elite",
+  "Arial", sans-serif ;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(29, 59, 30);
+  text-decoration: none;
+  padding: 5px;
+  margin-right: auto;
+}
+
+.sitenav-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  margin-right: 8px;
+  list-style-type: none;
+}
+
+.sitenav-item {
+  padding: 5px 16px;
+}
+
+.sitenav-link {
+  display: block;
+  text-decoration: none;
+  color: #000000;
+}
+
+.sitenav-link:hover {
+  color: red;
+}
+
+.header-tel-link {
+  display: block;
+  padding: 8px 16px;
+  background-color: #00BAFC;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 3px solid transparent;
+}
+
+.header-tel-link:hover {
+  background-color: #FFFFFF;
+  color: #00BAFC;
+  border: 3px solid #00BAFC;
+}
+
+.header-tel-link:active {
+  background-color: rgba(0, 186, 252, 0.6);
+  color: #fff;
+  border: 3px solid rgba(0, 186, 252, 0);
+}
