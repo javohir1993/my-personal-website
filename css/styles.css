@@ -1,11 +1,11 @@
-/* special-elite-regular - latin */
+/* merienda-one-regular - latin */
 @font-face {
-  font-family: "Special Elite";
+  font-family: "Merienda One";
   font-style: normal;
   font-weight: 400;
-  src: local("Special Elite Regular"), local("SpecialElite-Regular"),
-       url("../fonts/special-elite-v11-latin-regular.woff2") format("woff2"),
-       url("../fonts/special-elite-v11-latin-regular.woff") format("woff");
+  src: local("Merienda One"), local("MeriendaOne-Regular"),
+       url("../fonts/merienda-one-v11-latin-regular.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url("../fonts/merienda-one-v11-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 html {
@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  font-family: "Special Elite", "Arial", sans-serif;
+  font-family: "Merienda One", "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-style: normal;
@@ -109,6 +109,7 @@ img {
   padding: 20px 0;
   font-weight: bold;
   letter-spacing: 2px;
+  font-size: 14px;
 }
 
 .sitenav-link:hover {
