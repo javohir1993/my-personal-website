@@ -249,8 +249,9 @@ img {
 }
 
 .title {
+  width: 515px;
   color: #fff;
   font-size: 46px;
   letter-spacing: 4px;
-  /* text-align: center; */
+  text-transform: capitalize;
 }
